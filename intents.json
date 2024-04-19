@@ -104,6 +104,2135 @@
              "tag":"Consultation",
              "patterns": ["who should i contact for consultation?","is there any doctor available?","can you give me some suggestions for doctor consultations?","can you set up a meeting with a doctor for consultation?","is there any doctor available for consultation"],
              "responses":["You can contact various doctors here for any kind of consultation: 1. https://www.1mg.com/online-doctor-consultation, 2. https://www.tatahealth.com/online-doctor-consultation/general-physician, 3. https://www.doconline.com/, or you can pay a visit to your local area doctor or family doctor."]
-            }
+            },
+            {
+         "tag":"greeting",
+         "patterns":[
+            "Hi",
+            "How are you",
+            "Is anyone there?",
+            "Hello",
+            "Good day"
+         ],
+         "responses":[
+            "Hello, thanks for visiting",
+            "Good to see you again",
+            "Hi there, how can I help?"
+         ],
+         "context_set":""
+      },
+      {
+         "tag":"goodbye",
+         "patterns":[
+            "Bye",
+            "See you later",
+            "Goodbye"
+         ],
+         "responses":[
+            "See you later, thanks for visiting",
+            "Have a nice day",
+            "Bye! Come back again soon."
+         ]
+      },
+      {
+         "tag":"thanks",
+         "patterns":[
+            "Thanks",
+            "Thank you",
+            "That's helpful"
+         ],
+         "responses":[
+            "Happy to help!",
+            "Any time!",
+            "My pleasure"
+         ]
+      },
+      {
+         "tag":"isn't",
+         "patterns":[
+            "this isn't working"
+         ],
+         "responses":[
+            "For a real assistant please call 1-800-HELPME",
+            "Same-day clinic evaluation please call 1-800-HELPME"
+         ]
+      },
+      {
+         "tag":"hours",
+         "patterns":[
+            "What hours are you open?",
+            "What are your hours?",
+            "When are you open?"
+         ],
+         "responses":[
+            "We're open every day 9am-9pm",
+            "Our hours are 9am-9pm every day"
+         ]
+      },
+      {
+         "tag":"treatments",
+         "patterns":[
+            "What kind of treatment do you provide?",
+            "What kinds of treatments are there?",
+            "What do you provide?"
+         ],
+         "responses":[
+            "We are a walk-in clinic and provide vaccinations or treatment for basic illness and injuries.",
+            "We have doctors and nurses to assist you with questions or direct you to the right person."
+         ]
+      },
+      {
+         "tag":"payments",
+         "patterns":[
+            "Is this covered by OHIP?",
+            "Do I have to pay for this?",
+            "How can I pay?"
+         ],
+         "responses":[
+            "If you have your health card it should be covered.",
+            "We accept most major credit cards"
+         ]
+      },
+      {
+         "tag":"opentoday",
+         "patterns":[
+            "Are you open today?",
+            "When do you open today?",
+            "What are your hours today?"
+         ],
+         "responses":[
+            "We're open every day from 9am-9pm",
+            "Our hours are 9am-9pm every day"
+         ]
+      },
+      {
+         "tag":"hypertensive disease",
+         "patterns":[
+            "pain chest",
+            "shortness of breath",
+            "dizziness",
+            "asthenia",
+            "fall",
+            "syncope",
+            "vertigo",
+            "sweat",
+            "sweating increased",
+            "palpitation",
+            "nausea",
+            "angina pectoris",
+            "pressure chest"
+         ],
+         "responses":[
+            "It looks like you may have hypertensive disease"
+         ]
+      },
+      {
+         "tag":"diabetes",
+         "patterns":[
+            "polyuria",
+            "polydypsia",
+            "shortness of breath",
+            "pain chest",
+            "asthenia",
+            "nausea",
+            "orthopnea",
+            "rale",
+            "sweat",
+            "sweating increased",
+            "unresponsiveness",
+            "mental status changes",
+            "vertigo",
+            "vomiting",
+            "labored breathing"
+          
+         ],
+         "responses":[
+            "It looks like you may have diabetes",
+            "please go to the clinic diabetes"
+         ]
+      },
+      {
+         "tag":"coronary arteriosclerosis",
+         "patterns":[
+            "pain chest",
+            "angina pectoris",
+            "shortness of breath",
+            "hypokinesia",
+            "sweat",
+            "sweating increased",
+            "pressure chest",
+            "dyspnea on exertion",
+            "orthopnea",
+            "chest tightness"
+         ],
+         "responses":[
+            
+            "It looks like you may have coronary arteriosclerosis please go to the coronary arteriosclerosis clinic"
+         ]
+      },
+      {
+         "tag":"pneumonia",
+         "patterns":[
+            "cough",
+            "fever",
+            "decreased translucency",
+            "shortness of breath",
+            "rale",
+            "productive cough",
+            "pleuritic pain",
+            "yellow sputum",
+            "breath sounds decreased",
+            "chill",
+            "rhonchus",
+            "green sputum",
+            "non-productive cough",
+            "wheezing",
+            "haemoptysis",
+            "distress respiratory",
+            "tachypnea",
+            "malaise",
+            "night sweat"
+         ],
+         "responses":[
+            "It looks like you may have pneumonia please go to the pneumonia clinic"
+         ]
+      },
+      {
+         "tag":"failure heart congestive",
+         "patterns":[
+            "shortness of breath",
+            "orthopnea",
+            "jugular venous distention",
+            "rale",
+            "dyspnea",
+            "cough",
+            "wheezing"
+         ],
+         "responses":[
+            "It looks like you may have failure heart congestive please go to the clinic"
+         ]
+      },
+      {
+         "tag":"accident cerebrovascular",
+         "patterns":[
+            "dysarthria",
+            "asthenia",
+            "speech slurred",
+            "facial paresis",
+            "hemiplegia",
+            "unresponsiveness",
+            "seizure",
+            "numbness"
+         ],
+         "responses":[
+            "It looks like you may have accident cerebrovascular please go to the clinic"
+         ]
+      },
+      {
+         "tag":"asthma",
+         "patterns":[
+            "wheezing",
+            "cough",
+            "shortness of breath",
+            "chest tightness",
+            "non-productive cough",
+            "pleuritic pain",
+            "productive cough",
+            "symptom aggravating factors",
+            "distress respiratory"
+         ],
+         "responses":[
+            "It looks like you may have asthma please go to the clinic"
+         ]
+      },
+      {
+         "tag":"hypercholesterolemia",
+         "patterns":[
+            "pain",
+            "pain chest",
+            "sweat",
+            "sweating increased",
+            "nonsmoker",
+            "pressure chest",
+            "syncope",
+            "numbness",
+            "chest discomfort",
+            "shortness of breath",
+            "st segment depression",
+            "worry",
+            "t wave inverted",
+            "bradycardia",
+            "dyspnea"
+         ],
+         "responses":[
+            "It looks like you may have hypercholesterolemia please go to the clinic"
+         ]
+      },
+      {
+         "tag":"anemia",
+         "patterns":[
+            "chill",
+            "guaiac positive",
+            "monoclonal",
+            "ecchymosis",
+            "tumor cell invasion",
+            "haemorrhage",
+            "pallor",
+            "asthenia",
+            "fatigue",
+            "heme positive",
+            "pain back",
+            "orthostasis",
+            "hyponatremia",
+            "dizziness",
+            "shortness of breath",
+            "pain",
+            "rhonchus",
+            "arthralgia",
+            "swelling",
+            "transaminitis",
+            "following my discution with afriend who is doctor out of california he told me i may suffer from b12 deficiency. latley my hmos doctor send ne to b12 test that seems fine(200). my friend strongly sugested that i try to get the mm test wich may be the only test that relevant for b12 deficiency. does someone knows if the hmos are covering this test ingeneral? thanks yarden",
+            "i started getting symptoms 6 years ago when i turned 41- migraines vision problems tremors anemia memory issues joint arthritis and spur growth. before this i was a healthy construction worker who never saw the doctor. initial ana tests were quite elevated and my doctor referred me to a rheumatologist. several tests and rheumatologists later i was written off and the diagnosis was termed as fibromyalgia. now new tests reveal kidney disease- no diabetes or high blood pressure. is it possible to have lupus with symptoms but not showing in blood tests?"
+         ],
+         "responses":[
+            "It looks like you may have anemia please go to the clinic",
+            "the normal level of vitamin b12 in the blood is 200-1000ng/l. the levels of methylmalonic acid are generally high during anemia due to a lack of vitamin b12 or folic acid. methylmalonic acid can also be checked with a urine test. most hmos cover diagnostic services when medically necessary and prescribed by a participating physician. check with your insurance provider for more detailed information about your coverage.",
+            "with every thing normal i dont think its is lupus and fibromyalgia fits the description. supportive care with pain killers is advised. low doses of tricyclic antidepressants work like charm. i hope it helps. stay in touch with your healthcare provider for further guidance as our answers are just for education and counselling purposes and cannot be an alternative to actual visit to a doctor. take care khan"
+         ]
+      },
+      {
+         "tag":"chronic obstructive airway disease",
+         "patterns":[
+            "shortness of breath",
+            "wheezing",
+            "cough",
+            "dyspnea",
+            "distress respiratory",
+            "sputum purulent",
+            "hypoxemia",
+            "hypercapnia",
+            "patient non compliance",
+            "chest tightness"
+         ],
+         "responses":[
+            "It looks like you may have chronic obstructive airway disease please go to the clinic"
+         ]
+      },
+      {
+         "tag":"insufficiency renal",
+         "patterns":[
+            "shortness of breath",
+            "hyperkalemia",
+            "orthopnea",
+            "rale",
+            "urgency of micturition",
+            "ascites",
+            "guaiac positive",
+            "asthenia",
+            "apyrexial",
+            "mental status changes",
+            "dyspnea",
+            "difficulty",
+            "diarrhea",
+            "hypotension",
+            "breath sounds decreased",
+            "swelling",
+            "hypokinesia"
+         ],
+         "responses":[
+            "It looks like you may have insufficiency renal please go to the clinic"
+         ]
+      },
+      {
+         "tag":"hypothyroidism",
+         "patterns":[
+            "shortness of breath",
+            "prostatism",
+            "drowsiness",
+            "sleepy",
+            "hyponatremia",
+            "fall",
+            "unsteady gait",
+            "polyuria",
+            "hypotension",
+            "difficulty",
+            "syncope",
+            "nightmare",
+            "speech slurred",
+            "weight gain",
+            "asthenia",
+            "fatigue",
+            "tired",
+            "agitation",
+            "mental status changes",
+            "motor retardation",
+            "vomiting",
+            "numbness",
+            "mass of body structure"
+         ],
+         "responses":[
+            "It looks like you may have hypothyroidism please go to the clinic"
+         ]
+      },
+      {
+         "tag":"primary malignant neoplasm",
+         "patterns":[
+            "pain",
+            "mass of body structure",
+            "lesion",
+            "cushingoid facies",
+            "cushingoid habitus",
+            "emphysematous change",
+            "decreased body weight",
+            "ascites",
+            "hoarseness",
+            "thicken",
+            "hematuria"
+         ],
+         "responses":[
+            "It looks like you may have malignant neoplasms please go to the clinic malignant neoplasm"
+         ]
+      },
+      {
+         "tag":"acquired immuno-deficiency syndrome",
+         "patterns":[
+            "fever",
+            "night sweat",
+            "spontaneous rupture of membranes",
+            "cough",
+            "decreased body weight",
+            "chill",
+            "diarrhea",
+            "pleuritic pain",
+            "patient non compliance",
+            "tachypnea",
+            "productive cough",
+            "muscle hypotonia",
+            "hypotonic",
+            "feeling suicidal"
+         ],
+         "responses":[
+            "It looks like you may have acquired immuno-deficiency syndrome please go to the clinic"
+         ]
+      },
+      {
+         "tag":"gastroesophageal reflux disease",
+         "patterns":[
+            "pain",
+            "pain chest",
+            "burning sensation",
+            "hyponatremia",
+            "satiety early",
+            "throbbing sensation quality",
+            "chest tightness",
+            "sensory discomfort",
+            "presence of q wave",
+            "nausea",
+            "general discomfort",
+            "constipation",
+            "palpitation",
+            "pain abdominal",
+            "heartburn",
+            "sweat",
+            "sweating increased",
+            "asthenia"
+         ],
+         "responses":[
+            "It looks like you may have gastroesophageal reflux disease please go to the clinic"
+         ]
+      },
+      {
+         "tag":"septicemia",
+         "patterns":[
+            "fever",
+            "distress respiratory",
+            "hypotension",
+            "tachypnea",
+            "chill",
+            "lethargy",
+            "bradycardia",
+            "breech presentation",
+            "cyanosis",
+            "spontaneous rupture of membranes",
+            "haemorrhage",
+            "unresponsiveness",
+            "rale",
+            "apyrexial"
+         ],
+         "responses":[
+            "It looks like you may have septicemia please go to the clinic"
+         ]
+      },
+      {
+         "tag":"deep vein thrombosis",
+         "patterns":[
+            "swelling",
+            "pain",
+            "ecchymosis",
+            "shortness of breath",
+            "pain in lower limb",
+            "cardiomegaly",
+            "rale",
+            "erythema",
+            "hypotension",
+            "clonus",
+            "non-productive cough",
+            "redness"
+         ],
+         "responses":[
+            "It looks like you may have deep vein thrombosis please go to the clinic"
+         ]
+      },
+      {
+         "tag":"embolism pulmonary",
+         "patterns":[
+            "shortness of breath",
+            "hypoxemia",
+            "tachypnea",
+            "hematocrit decreased",
+            "pain chest",
+            "dyspnea",
+            "pleuritic pain",
+            "neck stiffness",
+            "yellow sputum",
+            "productive cough",
+            "cicatrisation",
+            "unresponsiveness",
+            "distress respiratory",
+            "wheezing",
+            "apyrexial",
+            "non-productive cough"
+         ],
+         "responses":[
+            "It looks like you may have embolism pulmonary please go to the clinic"
+         ]
+      },
+      {
+         "tag":"epilepsy",
+         "patterns":[
+            "seizure",
+            "hypometabolism",
+            "aura",
+            "muscle twitch",
+            "drowsiness",
+            "tremor",
+            "unresponsiveness",
+            "hemiplegia",
+            "myoclonus",
+            "gurgle",
+            "sleepy",
+            "lethargy",
+            "wheelchair bound",
+            "i have a meningitis last 2 years i just want to know whats the side effect of this after treament? is there any pssible to back again my bacteria"
+         ],
+         "responses":[
+            "It looks like you may have epilepsy please go to the clinic",
+            "hi thanks for using the ehealth forum for your query. you seem concerned by the post meningitic sequelae or after effects of meningitis and the possibility of recurrence. most people who get meningitis survive often without any after effects but sometimes these diseases cause a range of disabilities and problems that can alter people's lives. after effects may be temporary or permanent physical or emotional. these include- 1) memory loss / difficulty retaining information / lack of concentration 2) clumsiness / co-ordination problems 3) residual headaches 4) deafness / hearing problems / tinnitus / dizziness loss of balance 5) learning difficulties (ranging from temporary learning deficiencies to long term mental impairment) 6) epilepsy / seizures (fits) 7) weakness paralysis or spasms of part of body (if permanent sometimes called cerebral palsy) <positive_smiley> speech problems 9) loss of sight/changes in sight. viral meningitis usually has a tendency for recurrence e. g. herpes simplex type ii meningitis. hope this helps. take care. note: this answer is not intended as and does not substitute for medical advice - the information presented is for patient education only. please see your personal physician for further evaluation of your individual case."
+         ]
+      },
+      {
+         "tag":"chronic kidney failure",
+         "patterns":[
+            "vomiting",
+            "orthopnea",
+            "hyperkalemia",
+            "oliguria",
+            "jugular venous distention",
+            "nausea",
+            "shortness of breath",
+            "mental status changes",
+            "diarrhea",
+            "asthenia",
+            "chest tightness",
+            "malaise",
+            "chill",
+            "rale",
+            "fever",
+            "pleuritic pain",
+            "apyrexial",
+            "guaiac positive",
+            "swelling",
+            "catatonia",
+            "unresponsiveness",
+            "yellow sputum"
+         ],
+         "responses":[
+            "It looks like you may have chronic kidney failure please go to the clinic chronic kidney failure"
+         ]
+      },
+      {
+         "tag":"carcinoma",
+         "patterns":[
+            "mass of body structure",
+            "pain",
+            "lesion",
+            "tumor cell invasion",
+            "thicken",
+            "decreased body weight",
+            "hoarseness",
+            "general discomfort",
+            "metastatic lesion",
+            "non-productive cough",
+            "constipation",
+            "unhappy",
+            "paresthesia",
+            "gravida ",
+            "diarrhea",
+            "sore to touch",
+            "heartburn",
+            "nausea",
+            "lung nodule"
+         ],
+         "responses":[
+            "It looks like you may have carcinoma please go to the clinic"
+         ]
+      },
+      {
+         "tag":"hepatitis ",
+         "patterns":[
+            "ascites",
+            "distended abdomen",
+            "feeling suicidal",
+            "cough",
+            "ache",
+            "macerated skin",
+            "heavy feeling",
+            "hallucinations auditory",
+            "chill",
+            "asterixis",
+            "patient non compliance"
+         ],
+         "responses":[
+            "It looks like you may have hepatitis please go to the clinic"
+         ]
+      },
+      {
+         "tag":"peripheral vascular disease",
+         "patterns":[
+            "shortness of breath",
+            "rest pain",
+            "angina pectoris",
+            "unresponsiveness",
+            "hyperkalemia",
+            "sinus rhythm",
+            "labored breathing",
+            "dyspnea",
+            "sore to touch",
+            "anorexia",
+            "sleepy"
+         ],
+         "responses":[
+            "It looks like you may have peripheral vascular disease please go to the clinic"
+         ]
+      },
+      {
+         "tag":"hyperlipidemia",
+         "patterns":[
+            "pain chest",
+            "angina pectoris",
+            "palpitation",
+            "presence of q wave",
+            "photopsia",
+            "sweat",
+            "sweating increased",
+            "chest discomfort",
+            "shortness of breath",
+            "giddy mood",
+            "hypokinesia",
+            "hemiplegia",
+            "dizziness"
+         ],
+         "responses":[
+            "It looks like you may have hyperlipidemia please go to the clinic to see a doctor"
+         ]
+      },
+      {
+         "tag":"obesity",
+         "patterns":[
+            "pain",
+            "catatonia",
+            "snore",
+            "pain chest",
+            "r wave feature",
+            "has religious belief",
+            "shortness of breath",
+            "fatigue",
+            "tired",
+            "overweight",
+            "systolic murmur",
+            "mood depressed",
+            "ecchymosis"
+         ],
+         "responses":[
+            "It looks like you may have obesity please go to the clinic to see a doctor"
+         ]
+      },
+      {
+         "tag":"cirrhosis",
+         "patterns":[
+            "ascites",
+            "fall",
+            "splenomegaly",
+            "pruritus",
+            "pain abdominal",
+            "tumor cell invasion",
+            "distended abdomen",
+            "lesion",
+            "hemodynamically stable",
+            "guaiac positive",
+            "sore to touch",
+            "bleeding of vagina"
+         ],
+         "responses":[
+            "It looks like you may have cirrhosis please go to the clinic to see a doctor"
+         ]
+      },
+      {
+         "tag":"benign prostatic hypertrophy",
+         "patterns":[
+            "mental status changes",
+            "cachexia",
+            "blackout",
+            "orthostasis",
+            "orthopnea",
+            "night sweat",
+            "distress respiratory",
+            "anorexia",
+            "dysarthria"
+         ],
+         "responses":[
+            "It looks like you may have benign prostatic hypertrophy please go to the clinic"
+         ]
+      },
+      {
+         "tag":"kidney failure acute",
+         "patterns":[
+            "hyperkalemia",
+            "hypotension",
+            "hypocalcemia result",
+            "oliguria",
+            "hemodynamically stable",
+            "asthenia",
+            "hypothermia, natural",
+            "diarrhea",
+            "haemorrhage",
+            "unresponsiveness"
+         ],
+         "responses":[
+            "It looks like you may have kidney failure acute please go to the clinic"
+         ]
+      },
+      {
+         "tag":"mitral valve insufficiency",
+         "patterns":[
+            "shortness of breath",
+            "dyspnea on exertion",
+            "asymptomatic",
+            "hypokinesia",
+            "dyspnea",
+            "syncope",
+            "thicken",
+            "left atrial hypertrophy",
+            "palpitation",
+            "fatigue",
+            "vomiting",
+            "pain",
+            "cardiomegaly",
+            "chest discomfort"
+         ],
+         "responses":[
+            "It looks like you may have mitral valve insufficiency please go to the clinic"
+         ]
+      },
+      {
+         "tag":"arthritis",
+         "patterns":[
+            "pain",
+            "hemodynamically stable",
+            "sleeplessness",
+            "asthenia",
+            "syncope",
+            "swelling",
+            "atypia",
+            "general unsteadiness",
+            "shortness of breath",
+            "distended abdomen",
+            "i started getting symptoms 6 years ago when i turned 41- migraines vision problems tremors anemia memory issues joint arthritis and spur growth. before this i was a healthy construction worker who never saw the doctor. initial ana tests were quite elevated and my doctor referred me to a rheumatologist. several tests and rheumatologists later i was written off and the diagnosis was termed as fibromyalgia. now new tests reveal kidney disease- no diabetes or high blood pressure. is it possible to have lupus with symptoms but not showing in blood tests?",
+            "my family doctor and i have concluded (yesterday) after various tests and trials of other things over the last 1. 5 years that i have fibromyalgia. the symptoms coincidentally (or not) started when menopause started for me (i'm 54). i have been on hrt for one year and it has relieved the hot flashes but not the body/muscle pain and sleep problems. since all otc nsaids and arthritis type creams don't help he prescribed voltaren gel and to continue with all of the alternative therapies i'm trying: yoga walking monthly visit to chiropractor acupuncture and massage and meditation. he said to try the gel for 4 weeks and if that didn't work for me he'd prescribe nortriptyline for sleep/pain. do you agree with his assessment/plan? he didn't think diet had any impact do you agree? i am trying to eat a more plant based diet. any suggestions you have would be most welcome. thank you!",
+            "hi i am a 32 year old female. my question relates to exercise intolerance. i am very unfit and am wanting to get fit for the first time in my life but whenever i start even an easy exercise program i get really wiped out. i usually feel okay after my \"workout\" (barely a plausible term) session but feel extremely fatigued the next day. which interrupts my program. this can be very irregular tho sometimes i can do quite a bit and feel fine the next day. i had bulimia starting at age 17 for 10 years and am wondering if this is still the effects on my body. i have no other side effects from the bulimia. apart from that i have suffered chronic fatigue syndrome but these symptoms disappear if i don't exercise. i have had my heart and lungs checked out blood tests etc all come back fine. can someone please please shed some light as to why i get so exhausted following even a small amount of exercise. it doesnt seem to matter be it cardio or weights. thankyou very much"
+         ],
+         "responses":[
+            "It looks like you may have arthritis please go to the clinic",
+            "with every thing normal i dont think its is lupus and fibromyalgia fits the description. supportive care with pain killers is advised. low doses of tricyclic antidepressants work like charm. i hope it helps. stay in touch with your healthcare provider for further guidance as our answers are just for education and counselling purposes and cannot be an alternative to actual visit to a doctor. take care khan",
+            "your doctor is doing the right thing. nsaids trial is standard procedure with concomitant alternative therapies. if not responding then addition of antidepressants like nortriptyline is standard choice and wise one. do as directed by your doctor. visit our fibromyalgia health center for further guidance. i hope it helps. stay in touch with your healthcare provider for further guidance as our answers are just for education and counselling purposes and can not be an alternative to actual visit to a doctor. take care khan",
+            "as per your history due to your eating disorders and resultant protein deficiency your musculoskeletal system might be weak. this might be the cause of your tiredness associated with workouts. so to manage the situation it will be essential that you consult with a fitness trainer or a physiotherapist who can examine you and provide tips and advice about regaining your fitness. other possible issues like obesity arthritis myopathies etc also might need to be ruled out by proper consultation with your doctor. i hope this helps."
+         ]
+      },
+      {
+         "tag":"bronchitis",
+         "patterns":[
+            "cough",
+            "wheezing",
+            "shortness of breath",
+            "chest tightness",
+            "fever",
+            "throat sore",
+            "productive cough",
+            "hepatosplenomegaly",
+            "night sweat",
+            "haemoptysis",
+            "labored breathing",
+            "snuffle",
+            "hacking cough",
+            "dyspnea",
+            "chill",
+            "stridor",
+            "decreased body weight"
+         ],
+         "responses":[
+            "It looks like you may have bronchitis please go to the clinic"
+         ]
+      },
+      {
+         "tag":"hemiparesis",
+         "patterns":[
+            "dysarthria",
+            "paresis",
+            "asthenia",
+            "aphagia",
+            "seizure",
+            "speech slurred",
+            "focal seizures",
+            "hemiplegia",
+            "abnormal sensation",
+            "unresponsiveness",
+            "stupor",
+            "drowsiness",
+            "sleepy",
+            "fremitus",
+            "Stahli's line",
+            "stinging sensation",
+            "paralyse",
+            "clonus",
+            "facial paresis"
+         ],
+         "responses":[
+            "It looks like you may have hemiparesis please go to the clinic"
+         ]
+      },
+      {
+         "tag":"osteoporosis",
+         "patterns":[
+            "prostatism",
+            "fall",
+            "hirsutism",
+            "sniffle",
+            "distended abdomen",
+            "vertigo",
+            "numbness of hand",
+            "bradykinesia",
+            "pain",
+            "syncope",
+            "out of breath",
+            "apyrexial",
+            "urge incontinence",
+            "lightheadedness"
+         ],
+         "responses":[
+            "It looks like you may have osteoporosis please go to the Orthopedic clinic"
+         ]
+      },
+      {
+         "tag":"adenocarcinoma",
+         "patterns":[
+            "mass of body structure",
+            "lesion",
+            "decreased body weight",
+            "constipation",
+            "fremitus",
+            "decreased stool caliber",
+            "satiety early",
+            "hematochezia",
+            "egophony",
+            "pain",
+            "cicatrisation",
+            "scar tissue",
+            "pain abdominal",
+            "hi there! i am 40 years old male and married. i've been diagnosed to have a papillary thyroid cancer stage 1 (t1n0m0). i have undergone near total thyroidectomy ( a portion of the left lobe was left) a month ago. my endo prescribed levothyroxin for me to take for two to three months. i approached another endo and he has a slightly different view on treatment after surgery. i am weighing my options whether to go on with radioactive iodine treatment or not. suppose i will not undergo rai treatment what other possible options do i have? what are the risks? and if i go for rai what are the possible health risks? will it affect memory other organs like kidney sexual desire etc.? the surgery did not include removal of any lymph node. this is the biopsy:right thyroid lobe and isthmus: nodular papillary adenocarcinoma of low grade malignant potential. left thyroid lobe: colloid goiter solitary parathyroid gland with no significant histopathology demonstated. thanks for the answers"
+         ],
+         "responses":[
+            "It looks like you may have adenocarcinoma please go to adenocarcinoma clinic",
+            "radioactive iodine (rai) is often chosen for treatment of conditions associated with overactive thyroid including hyperthyroidism and thyroid cancers. rai treatment is based on the fact that the thyroid actively accumulates iodine which it uses to produce thyroid hormones required for normal body function. the therapeutic action of rai is via disruption of the function of the thyroid cells - the more radioactive iodine given the more cells cease to function. as the cells stop functioning excessive amounts of thyroid hormones are no longer produced and symptoms of hyperthyroidism begin to disappear. in your case the side effects of such therapy will be limited to short term effects like sore throat nausea fatigue etc. there will be no effect on other organs like kidneys nor any effect on the sexual desire and sexual function. but once the treatment is completed you will need lifelong therapy with thyroxine supplements to prevent hypothyroidism related symptoms."
+         ]
+      },
+      {
+         "tag":"pancreatitis",
+         "patterns":[
+            "vomiting",
+            "pain abdominal",
+            "nausea",
+            "pain",
+            "diarrhea",
+            "stool color yellow",
+            "rigor - temperature-associated observation",
+            "apyrexial",
+            "sore to touch",
+            "i pancreatitis with vomiting sometimes lost a lot of weight from 175 to just over 100 i've stopped eating red meats don't eat pork junk food and drink lots of gatorade for electrolytes how can i gain weight. i have diarrhea and very loud and noisy stomach sounds when hungry sometimes can't eat because food won't digest proper can someone tell me how to regulate this problem and gain weight please help"
+         ],
+         "responses":[
+            "It looks like you may have pancreatitis please go to the Abdominal clinic",
+            "weight loss with pancreas history is significant and needs correlation. before talking about what to eat and how to eat i suggest you get assessed for any pancreatic mass or malignancy. if you are jaundiced or feel itchy in skin etc it would be the time to get assessed for this pancreas evaluation from baselines to ca 19-9 assessment. now eating needs frequent meals and a nutritionist consult to give you a complete dietary plan. take care"
+         ]
+      },
+      {
+         "tag":"paroxysmal dyspnea",
+         "patterns":[
+            "orthopnea",
+            "shortness of breath",
+            "dyspnea on exertion",
+            "jugular venous distention",
+            "rale",
+            "pain chest",
+            "palpitation",
+            "sweat",
+            "sweating increased",
+            "weight gain",
+            "cough",
+            "dyspnea"
+         ],
+         "responses":[
+            "It looks like you may have paroxysmal dyspnea  please go to the Chest clinic"
+         ]
+      },
+      {
+         "tag":"hernia",
+         "patterns":[
+            "pain abdominal",
+            "pain",
+            "hyperventilation",
+            "excruciating pain",
+            "gag",
+            "nausea",
+            "posturing",
+            "hemiplegia",
+            "sore to touch",
+            "haemorrhage",
+            "apyrexial",
+            "food intolerance",
+            "pulse absent",
+            "asthenia",
+            "mass of body structure",
+            "thicken"
+         ],
+         "responses":[
+            "It looks like you may have hernia please go to the Urology clinic"
+         ]
+      },
+      {
+         "tag":"malignant neoplasm of prostate",
+         "patterns":[
+            "hematuria",
+            "dysesthesia",
+            "asthenia",
+            "polymyalgia",
+            "passed stones",
+            "pleuritic pain",
+            "guaiac positive",
+            "rale",
+            "breath sounds decreased",
+            "urge incontinence",
+            "dysuria",
+            "diarrhea",
+            "vertigo",
+            "qt interval prolonged",
+            "ataxia",
+            "paresis",
+            "hemianopsia homonymous",
+            "tumor cell invasion",
+            "hemodynamically stable",
+            "mass of body structure",
+            "rhonchus",
+            "orthostasis",
+            "decreased body weight"
+         ],
+         "responses":[
+            "It looks like you may have malignant neoplasm of prostate please go to the Oncology clinic"
+         ]
+      },
+      {
+         "tag":"carcinoma prostate",
+         "patterns":[
+            "hematuria",
+            "dysesthesia",
+            "asthenia",
+            "polymyalgia",
+            "passed stones",
+            "pleuritic pain",
+            "guaiac positive",
+            "rale",
+            "breath sounds decreased",
+            "urge incontinence",
+            "dysuria",
+            "diarrhea",
+            "vertigo",
+            "qt interval prolonged",
+            "ataxia",
+            "paresis",
+            "hemianopsia homonymous",
+            "tumor cell invasion",
+            "hemodynamically stable",
+            "mass of body structure",
+            "rhonchus",
+            "orthostasis",
+            "decreased body weight"
+         ],
+         "responses":[
+            "It looks like you may have malignant neoplasm of prostate please go to the Urology clinic"
+         ]
+      },
+      {
+         "tag":"lymphatic diseases",
+         "patterns":[
+            "pain",
+            "mass of body structure",
+            "night sweat",
+            "splenomegaly",
+            "lesion",
+            "chill",
+            "decreased body weight",
+            "swelling",
+            "fever",
+            "hyperacusis",
+            "fremitus",
+            "non-productive cough",
+            "egophony",
+            "redness",
+            "hepatomegaly",
+            "fatigue"
+         ],
+         "responses":[
+            "It looks like you may have lymphatic diseases please go to the lymphatic clinic"
+         ]
+      },
+      {
+         "tag":"malignant neoplasm of breast",
+         "patterns":[
+            "mass in breast",
+            "mass of body structure",
+            "paresthesia",
+            "retropulsion",
+            "erythema",
+            "difficulty",
+            "lesion",
+            "estrogen use",
+            "burning sensation",
+            "dyspnea",
+            "swelling",
+            "formication"
+         ],
+         "responses":[
+            "It looks like you may have malignant neoplasm of breast please go to the Chest clinic"
+         ]
+      },
+      {
+         "tag":"carcinoma breast",
+         "patterns":[
+            "mass in breast",
+            "mass of body structure",
+            "paresthesia",
+            "retropulsion",
+            "erythema",
+            "difficulty",
+            "lesion",
+            "estrogen use",
+            "burning sensation",
+            "dyspnea",
+            "swelling",
+            "formication"
+         ],
+         "responses":[
+            "It looks like you may have malignant neoplasm of breast please go to the Chest clinic"
+         ]
+      },
+      {
+         "tag":"schizophrenia",
+         "patterns":[
+            "hallucinations auditory",
+            "hypersomnolence",
+            "irritable mood",
+            "verbal auditory hallucinations",
+            "patient non compliance",
+            "agitation",
+            "suicidal",
+            "worry",
+            "hallucinations visual",
+            "underweight",
+            "underweight",
+            "homelessness",
+            "i used to saw people listen voices and got very angry left my job for 5 years. but then i started relaxing and all such things disappeared. my consulted a doctor for stomach problem he advised my to consult a psychiatrist. psychiatrist prescribed my donresp for 4 months pinyin for one month aripip for one month. another psychiatrist says i have to take medicines for five years. now donresp will be 4 mg in morning and 2 tablets of 4 mg in night. previously it was 4 mg in morning and 4 mg in night. i consulted 3rd psychiatrist. he said as now you don't see things and there are no symptoms therefore you take aripip 10 mg as prescribed a day. what's the matter. i am feeling fine. should i take medication? what can be other matters which are necessary to live in a society?",
+            "i was depressed in 2008 until i hear voices after a year and was diagnose with psycosis. i have been hearing voices for years but as years passes by i am becoming more confused if this was schizophrenia or is it clairvoyance or a combination. how can i identify and train myself to handle these voices."
+         ],
+         "responses":[
+            "It looks like you may have schizophrenia please go to the Dr. psychological",
+            "this is a very difficult question to answer on net as this will require detailed psychiatric examination. however since all the 3 psychiatrist you saw felt the need to prescribe medications it is quite clear that you need some medication to help prevent relapse or maybe there are some lingering symptoms that need to be controlled. you can also try psychotherapy along with medications. it may be helpful to discuss these points with the psychiatrist you trust the most. hope this helps. take care!",
+            "it is difficult for a common person to deal with psychiatric issues on their own. if you think you are having psychosis or related issues seek proper counselling with a psychiatrist who can prescribe you proper medications which can help you get better and function as a normal individual. i hope this helps."
+         ]
+      },
+      {
+         "tag":"overload fluid",
+         "patterns":[
+            "rale",
+            "jugular venous distention",
+            "hyperkalemia",
+            "orthopnea",
+            "shortness of breath",
+            "drowsiness",
+            "sleepy",
+            "weight gain",
+            "hypokalemia",
+            "hypotension",
+            "swelling",
+            "distended abdomen"
+         ],
+         "responses":[
+            "It looks like you may have overload fluid please go to the Dermatology clinic"
+         ]
+      },
+      {
+         "tag":"ulcer peptic",
+         "patterns":[
+            "pain abdominal",
+            "paraparesis",
+            "nausea",
+            "vomiting",
+            "polymyalgia",
+            "out of breath",
+            "pain chest",
+            "hemiplegia",
+            "gurgle",
+            "hunger",
+            "apyrexial",
+            "nervousness"
+         ],
+         "responses":[
+            "It looks like you may have ulcer peptic please go to the Abdominal clinic"
+         ]
+      },
+      {
+         "tag":"osteomyelitis",
+         "patterns":[
+            "pain",
+            "redness",
+            "prostate tender",
+            "fever",
+            "difficulty passing urine",
+            "sore to touch",
+            "swelling",
+            "apyrexial",
+            "erythema",
+            "abscess bacterial",
+            "pain foot",
+            "urinary hesitation"
+         ],
+         "responses":[
+            "It looks like you may have osteomyelitis please go to the Orthopedic Clinic"
+         ]
+      },
+      {
+         "tag":"gastritis",
+         "patterns":[
+            "heme positive",
+            "pain abdominal",
+            "vomiting",
+            "disequilibrium",
+            "nausea",
+            "intoxication",
+            "haemorrhage",
+            "guaiac positive",
+            "pain",
+            "decreased body weight",
+            "sore to touch",
+            "dizziness"
+         ],
+         "responses":[
+            "It looks like you may have gastritis please go to the Abdominal clinic"
+         ]
+      },
+      {
+         "tag":"bacteremia",
+         "patterns":[
+            "fever",
+            "chill",
+            "flushing",
+            "unresponsiveness",
+            "indifferent mood",
+            "urinoma",
+            "vomiting",
+            "distended abdomen",
+            "hypoalbuminemia",
+            "pustule",
+            "prostatism",
+            "diarrhea",
+            "abdominal tenderness",
+            "pleuritic pain",
+            "decreased translucency",
+            "pallor"
+         ],
+         "responses":[
+            "It looks like you may have bacteremia please go to the bacteremia clinic"
+         ]
+      },
+      {
+         "tag":"failure kidney",
+         "patterns":[
+            "orthopnea",
+            "oliguria",
+            "slowing of urinary stream",
+            "extreme exhaustion",
+            "unresponsiveness",
+            "hypotension",
+            "enuresis",
+            "shortness of breath",
+            "haemorrhage",
+            "prostatism",
+            "no status change",
+            "bedridden",
+            "bedridden",
+            "fatigue"
+         ],
+         "responses":[
+            "It looks like you may have failure kidney please go to the Kidney function clinic"
+         ]
+      },
+      {
+         "tag":"sickle cell anemia",
+         "patterns":[
+            "breakthrough pain",
+            "pain back",
+            "pain",
+            "shortness of breath",
+            "snuffle",
+            "pain chest",
+            "pain abdominal",
+            "hepatosplenomegaly",
+            "green sputum",
+            "apyrexial",
+            "headache"
+         ],
+         "responses":[
+            "It looks like you may have sickle cell anemia please go to the Abdominal clinic"
+         ]
+      },
+      {
+         "tag":"failure heart",
+         "patterns":[
+            "orthopnea",
+            "fatigue",
+            "dyspnea on exertion",
+            "dyspnea",
+            "shortness of breath",
+            "pansystolic murmur",
+            "jugular venous distention",
+            "systolic ejection murmur",
+            "hypotension",
+            "angina pectoris",
+            "hypokinesia"
+         ],
+         "responses":[
+            "It looks like you may have failure heart please go to the heart clinic"
+         ]
+      },
+      {
+         "tag":"upper respiratory infection",
+         "patterns":[
+            "cough",
+            "throat sore",
+            "wheezing",
+            "shortness of breath",
+            "labored breathing",
+            "fever",
+            "stuffy nose",
+            "non-productive cough",
+            "snuffle",
+            "indifferent mood",
+            "egophony",
+            "barking cough",
+            "polymyalgia",
+            "pleuritic pain",
+            "night sweat",
+            "dyspnea",
+            "productive cough",
+            "decreased translucency",
+            "rhonchus",
+            "rapid shallow breathing",
+            "apyrexial",
+            "noisy respiration",
+            "nasal discharge present",
+            "emphysematous change",
+            "frail",
+            "cystic lesion",
+            "symptom aggravating factors",
+            "hemodynamically stable"
+         ],
+         "responses":[
+            "It looks like you may have upper respiratory infection please go to the Chest clinic"
+         ]
+      },
+      {
+         "tag":"hepatitis",
+         "patterns":[
+            "ascites",
+            "spontaneous rupture of membranes",
+            "tachypnea",
+            "pain abdominal",
+            "pruritus",
+            "anorexia",
+            "transaminitis",
+            "projectile vomiting",
+            "chill",
+            "distress respiratory",
+            "fever",
+            "vomiting"
+         ],
+         "responses":[
+            "It looks like you may have hepatitis please go to the Abdominal clinic"
+         ]
+      },
+      {
+         "tag":"gout",
+         "patterns":[
+            "hot flush",
+            "pain",
+            "redness",
+            "swelling",
+            "erythema",
+            "emphysematous change",
+            "sore to touch",
+            "hypokinesia",
+            "ascites",
+            "patient non compliance"
+         ],
+         "responses":[
+            "It looks like you may have gout please go to the Orthopedic Clinic"
+         ]
+      },
+      {
+         "tag":"thrombocytopaenia",
+         "patterns":[
+            "ecchymosis",
+            "monocytosis",
+            "posterior rhinorrhea",
+            "haemorrhage",
+            "tachypnea",
+            "fever",
+            "pruritus",
+            "hypotension",
+            "fatigue"
+         ],
+         "responses":[
+            "It looks like you may have thrombocytopaenia please go to the Abdominal clinic"
+         ]
+      },
+      {
+         "tag":"hypoglycemia",
+         "patterns":[
+            "unresponsiveness",
+            "hypothermia, natural",
+            "incoherent",
+            "qt interval prolonged",
+            "lameness",
+            "claudication",
+            "unconscious state",
+            "clammy skin",
+            "polyuria",
+            "distress respiratory",
+            "hypotension",
+            "i have been suffering from severe fatigue for most of my life and had my first hypoglycaemia episode when i was about 11 years old. i have visited many doctors over the years and had many tests done which all came back normal. however i recently decided to measure my own blood sugars at home. i ate a high carb meal with a sugary energy drink. my sugar level was 5. 6 before the meal 7. 3 directly after the meal and 2. 2 one hour after the meal. i can not find any explanation of the rapid change other than gastric dumping syndrome which does not apply to me as i have never had stomach surgery. throughout my life i have alsp experienced severe hormonal swings and wondering if this has something to do with it. i was diagnosed with pcos at one point then a few months later told i didn't have it as my bloods were now normal. can anyone help?",
+            "one time episode of hypoglycemia? this was an extremely concerning experience: on a no-carb diet for 1. 5 weeks and had a day where i was really busy and feeling a little out of sorts. only ate a small meal of chicken and spinach around 11 a. m. as the day progressed i continued to feel out of sorts shaky and a bit confused but was trying to get things done and did not eat. in the early evening i had a few glasses of wine with friends and reacted very badly becoming confused and feeling more intoxicated than usual. my behavior was not reflective of my usual behavior. i am wondering if i became hypoglycemic due to diet lack of food and then when i drank alcohol became more hypoglycemic. i am otherwise healthy and have never experienced this previously or after. the only difference was diet and not eating enough for a long period of time. having some wine is not unusual but the reaction was as was my behavior/mood/feelings throughout the day"
+         ],
+         "responses":[
+            "It looks like you may have hypoglycemia please go to the Abdominal clinic",
+            "it is more likely that you have a severe anxiety or ocd about having medical issues which have not been confirmed by your doctors after a proper examination. your symptoms are more likely psychogenic. it would be best that you consult a psychiatrist and seek proper help to manage your anxiety.",
+            "hi skipping meals is causing hypoglycemia to your body. if you took wine while fasting (without eating anything); then alcohol in wine has lowered your blood sugar more leading to sever hypoglycemia. i'd suggest to: - have your meals regularly; do not skip any - eat often and small portions - do chew up slowly do not rush - avoid high calorie foods - avoid alcohol and smoking especially while you do not eat anything - avoid caffeine or other stimulants all the best! feel free to ask me again if you have further questions! dr. alba"
+         ]
+      },
+      {
+         "tag":"pneumonia aspiration",
+         "patterns":[
+            "mediastinal shift",
+            "fever",
+            "clonus",
+            "mental status changes",
+            "decreased translucency",
+            "unresponsiveness",
+            "extreme exhaustion",
+            "stupor",
+            "seizure",
+            "transaminitis",
+            "hemiplegia",
+            "cough",
+            "gurgle",
+            "pain",
+            "diarrhea",
+            "pain abdominal"
+         ],
+         "responses":[
+            "It looks like you may have pneumonia aspiration please go to the Chest clinic"
+         ]
+      },
+      {
+         "tag":"colitis",
+         "patterns":[
+            "fever",
+            "thicken",
+            "green sputum",
+            "vomiting",
+            "nausea and vomiting",
+            "awakening early",
+            "pain",
+            "nausea",
+            "chill",
+            "tenesmus",
+            "urge incontinence",
+            "pain abdominal",
+            "hemodynamically stable"
+         ],
+         "responses":[
+            "It looks like you may have colitis please go to the Chest clinic"
+         ]
+      },
+      {
+         "tag":"parkinson disease",
+         "patterns":[
+            "achalasia",
+            "fall",
+            "stiffness",
+            "withdraw",
+            "agitation",
+            "hemiplegia",
+            "difficulty",
+            "unresponsiveness",
+            "syncope",
+            "facial paresis",
+            "orthostasis",
+            "worry",
+            "drowsiness",
+            "sleepy",
+            "hematuria",
+            "tremor",
+            "night sweat",
+            "mass of body structure"
+         ],
+         "responses":[
+            "It looks like you may have parkinson disease please go to the Neurology clinic"
+         ]
+      },
+      {
+         "tag":"encephalopathy",
+         "patterns":[
+            "uncoordination",
+            "asterixis",
+            "haemorrhage",
+            "drowsiness",
+            "sleepy",
+            "absences finding",
+            "posturing",
+            "aura",
+            "tonic seizures",
+            "debilitation",
+            "consciousness clear",
+            "unresponsiveness",
+            "thicken",
+            "hypokinesia"
+         ],
+         "responses":[
+            "It looks like you may have encephalopathy please go to the Neurology clinic"
+         ]
+      },
+      {
+         "tag":"tricuspid valve insufficiency",
+         "patterns":[
+            "shortness of breath",
+            "pain",
+            "vomiting",
+            "nausea",
+            "bradycardia",
+            "pain abdominal",
+            "fever",
+            "cicatrisation",
+            "mediastinal shift",
+            "impaired cognition"
+         ],
+         "responses":[
+            "It looks like you may have tricuspid valve insufficiency please go to the heart clinic"
+         ]
+      },
+      {
+         "tag":"Alzheimer's disease",
+         "patterns":[
+            "drool",
+            "agitation",
+            "nightmare",
+            "rhonchus",
+            "consciousness clear",
+            "pin-point pupils",
+            "bedridden",
+            "bedridden",
+            "frail",
+            "tremor resting",
+            "hyperkalemia",
+            "facial paresis",
+            "groggy",
+            "muscle twitch",
+            "wheelchair bound",
+            "tremor",
+            "cough",
+            "fever"
+         ],
+         "responses":[
+            "It looks like you may have Alzheimer's disease please go to the Neurology clinic"
+         ]
+      },
+      {
+         "tag":"candidiasis",
+         "patterns":[
+            "diarrhea",
+            "throat sore",
+            "decreased body weight",
+            "chill",
+            "headache",
+            "abdominal tenderness",
+            "patient non compliance",
+            "photophobia",
+            "night sweat",
+            "painful swallowing",
+            "poor dentition",
+            "transaminitis",
+            "non-productive cough",
+            "adverse reaction",
+            "adverse effect",
+            "abdominal bloating"
+         ],
+         "responses":[
+            "It looks like you may have candidiasis please go to the Urology clinic"
+         ]
+      },
+      {
+         "tag":"oralcandidiasis",
+         "patterns":[
+            "diarrhea",
+            "throat sore",
+            "decreased body weight",
+            "chill",
+            "headache",
+            "abdominal tenderness",
+            "patient non compliance",
+            "photophobia",
+            "night sweat",
+            "painful swallowing",
+            "poor dentition",
+            "transaminitis",
+            "non-productive cough",
+            "adverse reaction",
+            "adverse effect",
+            "abdominal bloating"
+         ],
+         "responses":[
+            "It looks like you may have candidiasis please go to the Otorhinolaryngological clinic"
+         ]
+      },
+      {
+         "tag":"neuropathy",
+         "patterns":[
+            "asthenia",
+            "numbness",
+            "nausea and vomiting",
+            "awakening early",
+            "hydropneumothorax",
+            "superimposition",
+            "fatigability",
+            "tenesmus",
+            "pain",
+            "slowing of urinary stream"
+         ],
+         "responses":[
+            "It looks like you may have neuropathy please go to the Neurology clinic"
+         ]
+      },
+      {
+         "tag":"glaucoma",
+         "patterns":[
+            "fall",
+            "distended abdomen",
+            "unsteady gait",
+            "paresthesia",
+            "hyponatremia",
+            "agitation",
+            "unconscious state",
+            "burning sensation",
+            "lesion",
+            "mass of body structure"
+         ],
+         "responses":[
+            "It looks like you may have glaucoma please go to the eyes clinic"
+         ]
+      },
+      {
+         "tag":"malignant tumor of colon",
+         "patterns":[
+            "lesion",
+            "prostatism",
+            "constipation",
+            "general discomfort",
+            "diarrhea",
+            "pain abdominal",
+            "urinary hesitation",
+            "dizzy spells",
+            "shooting pain",
+            "bradycardia",
+            "vomiting",
+            "systolic ejection murmur",
+            "nausea",
+            "hyperemesis",
+            "polydypsia"
+         ],
+         "responses":[
+            "It looks like you may have malignant tumor of colon please go to the Abdominal clinic"
+         ]
+      },
+      {
+         "tag":"tonic-clonic epilepsy",
+         "patterns":[
+            "drowsiness",
+            "lip smacking",
+            "myoclonus",
+            "tremor",
+            "phonophobia",
+            "rolling of eyes",
+            "sleepy",
+            "hirsutism",
+            "moody",
+            "muscle twitch",
+            "unresponsiveness",
+            "headache",
+            "ambidexterity",
+            "absences finding",
+            "spasm",
+            "decreased body weight",
+            "tumor cell invasion"
+         ],
+         "responses":[
+            "It looks like you may have tonic-clonic epilepsy please go to the Neurology clinic"
+         ]
+      },
+      {
+         "tag":"tonic-clonic seizures",
+         "patterns":[
+            "drowsiness",
+            "lip smacking",
+            "myoclonus",
+            "tremor",
+            "phonophobia",
+            "rolling of eyes",
+            "sleepy",
+            "hirsutism",
+            "moody",
+            "muscle twitch",
+            "unresponsiveness",
+            "headache",
+            "ambidexterity",
+            "absences finding",
+            "spasm",
+            "decreased body weight",
+            "tumor cell invasion"
+         ],
+         "responses":[
+            "It looks like you may have tonic-clonic epilepsy please go to the Neurology clinic"
+         ]
+      },
+      {
+         "tag":"respiratory failure",
+         "patterns":[
+            "hemiplegia",
+            "snore",
+            "unresponsiveness",
+            "productive cough",
+            "dyspnea",
+            "tachypnea",
+            "hyperkalemia",
+            "hypokinesia",
+            "sinus rhythm",
+            "general unsteadiness",
+            "bruit",
+            "consciousness clear",
+            "shortness of breath",
+            "lesion",
+            "redness"
+         ],
+         "responses":[
+            "It looks like you may have respiratory failure please go to the Chest clinic"
+         ]
+      },
+      {
+         "tag":"melanoma",
+         "patterns":[
+            "mass of body structure",
+            "paraparesis",
+            "fever",
+            "gravida ",
+            "pain",
+            "pruritus",
+            "mass in breast",
+            "vomiting",
+            "diarrhea"
+         ],
+         "responses":[
+            "It looks like you may have melanoma please go to the Dermatology clinic"
+         ]
+      },
+      {
+         "tag":"gastroenteritis",
+         "patterns":[
+            "pain abdominal",
+            "breath-holding spell",
+            "nausea",
+            "decreased body weight",
+            "sore to touch",
+            "scleral icterus",
+            "fever",
+            "myalgia",
+            "hyponatremia",
+            "retch",
+            "mass of body structure",
+            "decreased body weight"
+         ],
+         "responses":[
+            "It looks like you may have gastroenteritis please go to the Abdominal clinic"
+         ]
+      },
+      {
+         "tag":"malignant neoplasm of lung",
+         "patterns":[
+            "lesion",
+            "cough",
+            "lung nodule",
+            "shortness of breath",
+            "haemoptysis",
+            "debilitation",
+            "gurgle",
+            "ache",
+            "rale",
+            "night sweat",
+            "decreased translucency",
+            "asthenia",
+            "metastatic lesion",
+            "agitation",
+            "irritable mood"
+         ],
+         "responses":[
+            "It looks like you may have malignant neoplasm of lung please go to the Chest clinic"
+         ]
+      },
+      {
+         "tag":"carcinoma of lung",
+         "patterns":[
+            "lesion",
+            "cough",
+            "lung nodule",
+            "shortness of breath",
+            "haemoptysis",
+            "debilitation",
+            "gurgle",
+            "ache",
+            "rale",
+            "night sweat",
+            "decreased translucency",
+            "asthenia",
+            "metastatic lesion",
+            "agitation",
+            "irritable mood"
+         ],
+         "responses":[
+            "It looks like you may have malignant neoplasm of lung please go to the Chest clinic"
+         ]
+      },
+      {
+         "tag":"manic disorder",
+         "patterns":[
+            "energy increased",
+            "suicidal",
+            "hypersomnia",
+            "feeling suicidal",
+            "blanch",
+            "hallucinations auditory",
+            "hallucinations visual",
+            "elation",
+            "verbal auditory hallucinations",
+            "feeling hopeless",
+            "difficulty",
+            "decompensation",
+            "verbally abusive behavior",
+            "suicidal",
+            "feeling suicidal"
+         ],
+         "responses":[
+            "It looks like you may have manic disorder please go to the Neurology clinic"
+         ]
+      },
+      {
+         "tag":"primary carcinoma of the liver cells",
+         "patterns":[
+            "mass of body structure",
+            "splenomegaly",
+            "lesion",
+            "paresis",
+            "tumor cell invasion",
+            "room spinning",
+            "haemorrhage",
+            "thicken",
+            "indifferent mood",
+            "cachexia",
+            "hypothermia, natural",
+            "pain abdominal",
+            "hepatomegaly",
+            "hematocrit decreased",
+            "stupor",
+            "decreased body weight",
+            "shortness of breath",
+            "cough"
+         ],
+         "responses":[
+            "It looks like you may have primary carcinoma of the liver cells please go to the Abdominal clinic"
+         ]
+      },
+      {
+         "tag":"emphysema pulmonary",
+         "patterns":[
+            "behavior showing increased motor activity",
+            "scar tissue",
+            "dyspnea on exertion",
+            "coordination abnormal",
+            "myalgia",
+            "hypercapnia",
+            "clammy skin",
+            "has religious belief",
+            "room spinning",
+            "moan",
+            "night sweat",
+            "cachexia",
+            "symptom aggravating factors",
+            "dyspnea",
+            "rale",
+            "flushing",
+            "painful swallowing",
+            "arthralgia",
+            "choke",
+            "tenesmus",
+            "constipation"
+         ],
+         "responses":[
+            "It looks like you may have emphysema pulmonary please go to the Chest clinic"
+         ]
+      },
+      {
+         "tag":"hemorrhoids",
+         "patterns":[
+            "haemorrhage",
+            "bowel sounds decreased",
+            "decreased stool caliber",
+            "nausea and vomiting",
+            "hunger",
+            "diarrhea",
+            "dizziness",
+            "hyponatremia",
+            "clonus",
+            "pain",
+            "achalasia",
+            "burning sensation",
+            "guaiac positive",
+            "numbness of hand",
+            "wheezing",
+            "cough"
+         ],
+         "responses":[
+            "It looks like you may have hemorrhoids please go to the Urology clinic"
+         ]
+      },
+      {
+         "tag":"spasm bronchial",
+         "patterns":[
+            "shortness of breath",
+            "scar tissue",
+            "apyrexial",
+            "no known drug allergies",
+            "pain",
+            "productive cough",
+            "throat sore",
+            "dyspnea",
+            "chest tightness",
+            "hypoxemia",
+            "tachypnea",
+            "sensory discomfort",
+            "fever",
+            "vomiting",
+            "rhonchus",
+            "hemiplegia",
+            "fremitus"
+         ],
+         "responses":[
+            "It looks like you may have spasm bronchial please go to the Chest clinic"
+         ]
+      },
+      {
+         "tag":"aphasia",
+         "patterns":[
+            "clonus",
+            "egophony",
+            "facial paresis",
+            "aphagia",
+            "muscle twitch",
+            "paralyse",
+            "low back pain",
+            "charleyhorse"
+         ],
+         "responses":[
+            "It looks like you may have aphasia please go to the Otorhinolaryngological clinic"
+         ]
+      },
+      {
+         "tag":"obesity morbid",
+         "patterns":[
+            "out of breath",
+            "sedentary",
+            "angina pectoris",
+            "cough",
+            "unhappy",
+            "labored breathing",
+            "hypothermia, natural",
+            "dyspnea",
+            "hematocrit decreased",
+            "wheezing",
+            "hypoxemia",
+            "renal angle tenderness",
+            "feels hot/feverish"
+         ],
+         "responses":[
+            "It looks like you may have obesity morbid please go to the Abdominal clinic"
+         ]
+      },
+      {
+         "tag":"endocarditis",
+         "patterns":[
+            "pleuritic pain",
+            "thicken",
+            "myalgia",
+            "apyrexial",
+            "night sweat",
+            "flare",
+            "shortness of breath",
+            "orthopnea",
+            "abscess bacterial",
+            "hypotension",
+            "cough",
+            "metastatic lesion",
+            "breath sounds decreased",
+            "decreased body weight",
+            "pulsus paradoxus",
+            "hypokinesia"
+         ],
+         "responses":[
+            "It looks like you may have endocarditis please go to the Chest clinic"
+         ]
+      },
+      {
+         "tag":"chronic alcoholic intoxication",
+         "patterns":[
+            "tremor",
+            "hallucinations auditory",
+            "suicidal",
+            "hoard",
+            "irritable mood",
+            "feeling hopeless",
+            "feeling suicidal",
+            "neologism",
+            "seizure",
+            "homelessness",
+            "sleeplessness",
+            "unconscious state",
+            "panic",
+            "breath sounds decreased",
+            "shortness of breath"
+         ],
+         "responses":[
+            "It looks like you may have chronic alcoholic intoxication please go to the Abdominal clinic"
+         ]
+      },
+      {
+         "tag":"pneumothorax",
+         "patterns":[
+            "dyspnea",
+            "cardiovascular finding",
+            "cardiovascular event",
+            "haemoptysis",
+            "cough",
+            "hypercapnia",
+            "soft tissue swelling",
+            "prostatism",
+            "agitation"
+         ],
+         "responses":[
+            "It looks like you may have pneumothorax please go to the Chest clinic"
+         ]
+      },
+      {
+         "tag":"hyperbilirubinemia",
+         "patterns":[
+            "cyanosis",
+            "tachypnea",
+            "para ",
+            "bradycardia",
+            "breech presentation",
+            "cushingoid facies",
+            "cushingoid habitus",
+            "cough",
+            "myalgia"
+         ],
+         "responses":[
+            "It looks like you may have hyperbilirubinemia please go to the Abdominal clinic"
+         ]
+      },
+      {
+         "tag":"influenza",
+         "patterns":[
+            "uncoordination",
+            "fever",
+            "pleuritic pain",
+            "snuffle",
+            "throat sore",
+            "malaise",
+            "debilitation",
+            "symptom aggravating factors",
+            "chill",
+            "scleral icterus",
+            "nasal flaring",
+            "dysuria",
+            "lip smacking",
+            "headache",
+            "sneeze",
+            "snore",
+            "green sputum",
+            "shortness of breath",
+            "distress respiratory",
+            "blackout",
+            "extreme exhaustion"
+         ],
+         "responses":[
+            "It looks like you may have influenza please go to the Otorhinolaryngological clinic"
+         ]
+      },
+      {
+         "tag":"thrombus",
+         "patterns":[
+            "hypokinesia",
+            "anorexia",
+            "hypertonicity",
+            "shortness of breath",
+            "hypoalbuminemia",
+            "pruritus",
+            "sore to touch",
+            "hemodynamically stable",
+            "facial paresis",
+            "vomiting",
+            "stool color yellow"
+         ],
+         "responses":[
+            "It looks like you may have thrombus please go to the Neurology clinic"
+         ]
+      },
+      {
+         "tag":"cholecystitis",
+         "patterns":[
+            "moan",
+            "nausea",
+            "pain abdominal",
+            "Murphy's sign",
+            "flatulence",
+            "colic abdominal",
+            "pain",
+            "ascites",
+            "diarrhea",
+            "qt interval prolonged",
+            "cardiovascular finding",
+            "cardiovascular event",
+            "groggy",
+            "sinus rhythm",
+            "gasping for breath",
+            "constipation",
+            "feces in rectum",
+            "abnormally hard consistency"
+         ],
+         "responses":[
+            "It looks like you may have cholecystitis please go to the Abdominal clinic"
+         ]
+      },
+      {
+         "tag":"hernia hiatal",
+         "patterns":[
+            "pain abdominal",
+            "fatigability",
+            "prodrome",
+            "vomiting",
+            "nausea",
+            "myalgia",
+            "hyponatremia",
+            "sore to touch",
+            "general discomfort",
+            "dyspnea on exertion",
+            "asterixis",
+            "guaiac positive",
+            "numbness of hand",
+            "headache",
+            "photophobia"
+         ],
+         "responses":[
+            "It looks like you may have hernia hiatal please go to the Abdominal clinic"
+         ]
+      },
+      {
+         "tag":"migraine disorders",
+         "patterns":[
+            "ambidexterity",
+            "vomiting",
+            "dizziness",
+            "numbness",
+            "nausea",
+            "fever",
+            "splenomegaly"
+         ],
+         "responses":[
+            "It looks like you may have migraine disorders please go to the Neurology clinic"
+         ]
+      },
+      {
+         "tag":"tachycardia sinus",
+         "patterns":[
+            "left atrial hypertrophy",
+            "sweat",
+            "sweating increased",
+            "alcohol binge episode",
+            "pressure chest",
+            "scar tissue",
+            "cardiovascular finding",
+            "cardiovascular event",
+            "orthostasis",
+            "shortness of breath",
+            "t wave inverted",
+            "vomiting",
+            "pain abdominal"
+         ],
+         "responses":[
+            "It looks like you may have tachycardia sinus please go to the Chest clinic"
+         ]
+      }
 ]}
         
